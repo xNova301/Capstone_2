@@ -2,7 +2,7 @@ export class Service {
     getPhones = async () => {
       try {
         const res = await axios({
-          url: 'https://6204afb3c6d8b20017dc3656.mockapi.io/Products',
+          url: 'https://65efc71eead08fa78a50eda9.mockapi.io/Phone',
           method: 'GET',
         });
         return res.data;
@@ -13,7 +13,7 @@ export class Service {
     getPhoneById = async (id) => {
       try {
         const res = await axios({
-          url: `https://6204afb3c6d8b20017dc3656.mockapi.io/Products/${id}`,
+          url: `https://65efc71eead08fa78a50eda9.mockapi.io/Phone/${id}`,
           method: 'GET',
         });
   
