@@ -1,0 +1,77 @@
+/* Fonts Form Google Font ::- https://fonts.google.com/  -:: */
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
+/* End Fonts */
+/* Start Global rules */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* End Global rules */
+
+/* Start form  attributes */
+#formPhone {
+  width: 450px;
+  min-height: 500px;
+  height: auto;
+  border-radius: 5px;
+  margin: 2% auto;
+  box-shadow: 0 9px 50px hsla(216, 83%, 68%, 0.31);
+  padding: 2%;
+  background-image: linear-gradient(250deg, #e3ecfd, #fff0e8);
+}
+/* .modal-content {
+  background-image: ;
+} */
+
+/* the header form form */
+/* header {
+  margin: 2% auto 10% auto;
+  text-align: center;
+} */
+/* Login title form form */
+header h3 {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 210%;
+  font-family: 'Playfair Display', serif;
+  color: #3e403f;
+}
+/*  A welcome message or an explanation of the login form */
+header p {
+  letter-spacing: 0.05em;
+}
+
+/* buttons  */
+
+/* Submits */
+.submits {
+  width: 48%;
+  display: inline-block;
+  float: left;
+  margin-left: 2%;
+}
+
+/*       Forgot Password button FAF3DD  */
+.frgt-pass {
+  background: transparent;
+}
+
+/*     Sign Up button  */
+.sign-up {
+  background: #b8f2e6;
+}
+
+.form-group {
+  padding: 5px 0;
+}
+
+.sp-thongbao {
+  color: red;
+  margin-left: 40px;
+  /* display: none; */
+}
+
+.input-group-text {
+  padding: 0.7rem 0.75rem;
+}
